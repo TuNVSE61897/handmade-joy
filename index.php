@@ -348,7 +348,7 @@ include 'common.php';
                         </div>
                     </div>-->
                     <div class="form-group">
-						<label for="name" class="col-sm-2 control-label"><?php echo 'How long will you be offline/afk?' ?></label>
+						<label for="name" class="col-sm-2 control-label"><?php echo 'How long will you be offline/afk? (In Minute)' ?></label>
 						<div class="col-sm-10">
 							<textarea id="duration" class="form-control" name="duration" rows="1" placeholder="<?php echo 'Input the minute and ONLY NUMBER. For example: 10, 40, 120, 540' ?>" maxlength="9" minlength="1"></textarea><br />
 						</div>
@@ -913,8 +913,8 @@ include 'common.php';
 
 				
 
-                <!--<img id="preview-image" src="images/default3.jpg" class="" width="30%" height="30%" download="myImage">-->
-				<div id="preview-image" class="bg-3 text-center" style="color:red; background-color:#AFEBDD;"></div>
+                <!--<img id="preview-image" src="images/default3.jpg" class="" width="30%" height="30%" download="myImage"> bg-3 text-center-->
+				<div id="preview-image" class="col-sm-2 control-label" style="color:red; background-color:#AFEBDD;"></div>
             </div>
 			
 		<!--	<div class="bg-3 text-center" style="background-color:#AFEBDD;"><a href="https://gogetfunding.com/?p=7700516">Find it helpful? Buy us a chestnut cake</a></div>-->
